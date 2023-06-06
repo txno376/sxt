@@ -11,3 +11,4 @@ images = handwrite(text, template)
 for im in images:
     assert isinstance(im, Image.Image)
     im.show()
+im.save('date.png')
